@@ -1,0 +1,16 @@
+._shield1_ {
+    background-image: url(/assets/img/shield.png);
+    background-repeat: no-repeat;
+    background-size: 41px 85px;
+    background-position: 0 0;
+    bottom: -19px;
+    height: 40px;
+    margin-left: -20px;
+    width: 40px;
+    left: 50%;
+    position: absolute;
+    z-index: 3;
+}
+table#bang_thong_ke a {
+    color: #3c4858;
+}

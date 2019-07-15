@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "Quét điểm THPT Quốc Gia",
+	"author": "Nguyễn Nam Hồng, Nguyễn Văn Hiệp",
+	"description": "Extension quét điểm THPT Quốc Gia",
+	"version": "1.0.0",
+ 
+	"icons": {
+		"16": "icon.png",
+      	"48": "icon.png",
+      	"128": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icon.png",
+        	"24": "icon.png",           
+        	"32": "icon.png" 
+		},
+		"default_popup": "popup.html",
+		"default_title": "Quét điểm THPT Quốc Gia"
+	},
+	
+	"background": {
+		"scripts": ["assets/js/core/jquery.min.js", "scripts/background.js"]
+	},	
+	"permissions":
+	 [
+
+		 "http://*/*", "https://*/*", "notifications", "contextMenus", "cookies", "webRequest", "webRequestBlocking"
+	]
+}
