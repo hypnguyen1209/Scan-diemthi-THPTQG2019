@@ -30,7 +30,7 @@ function download() {
     }
 }
 function get_data(id) {
-        list_id += "SBD: "+id.result[0].Toan+", Toán:"+id.result[0].Toan+", Ngữ Văn:"+id.result[0].NguVan+", Ngoại Ngữ:"+id.result[0].NgoaiNgu+", Vật Lý:"+id.result[0].VatLi+", Hóa Học:"+id.result[0].HoaHoc+", Sinh Học:"+id.result[0].SinhHoc+", KHTN:"+id.result[0].KHTN+", Địa Lý:"+id.result[0].DiaLi+", Lịch Sử:"+id.result[0].LichSu+", GDCD:"+id.result[0].GDCD+", KHXH:"+id.result[0].KHXH+" \n";
+        list_id += "SBD: "+id.result[0].Code+", Toán:"+id.result[0].Toan+", Ngữ Văn:"+id.result[0].NguVan+", Ngoại Ngữ:"+id.result[0].NgoaiNgu+", Vật Lý:"+id.result[0].VatLi+", Hóa Học:"+id.result[0].HoaHoc+", Sinh Học:"+id.result[0].SinhHoc+", KHTN:"+id.result[0].KHTN+", Địa Lý:"+id.result[0].DiaLi+", Lịch Sử:"+id.result[0].LichSu+", GDCD:"+id.result[0].GDCD+", KHXH:"+id.result[0].KHXH+" \n";
 }
 function scanner() {
     let start = document.getElementById('start').value;
